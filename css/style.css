@@ -7,6 +7,7 @@ a:hover { text-decoration: none; color:#4183d7;  -o-transition: .5s;    -ms-tran
 a:focus{ outline:0; outline: none;}
 p{font-size:13px; color:#384553; line-height:18px;}
 header{background-color:#6c7a89;}
+strong{font-weight:700;}
 .darker{background-color:#ecf0f1;}
 .bos{padding:30px 0 30px 0;}
 .row{margin:0;}
@@ -14,6 +15,7 @@ header{background-color:#6c7a89;}
 .campaigns h2{font-size:13px; color:#4183d7; padding:0; margin:0;}
 .campaigns p{padding:0; margin:0;}
 .ara h1{color:#384553; font-size:18px; }
+.ara h1, .route h1{color:#384553; font-size:18px; }
 .ara h2{color:#4183d7; font-size:18px; margin:0 0 13px 0;}
 .yatpopular{margin-bottom:10px;}
 .popular-yachts p{font-size:12px; margin:0; padding:0;}
@@ -24,13 +26,16 @@ header{background-color:#6c7a89;}
 .popular-routes li{margin:10px 0 10px 0; border-bottom:1px solid #ecf0f1; padding-bottom:10px;}
 .popular-routes a{font-size:12px;}
 .popular-routes li a{font-size:13px;}
+
 .search h3{font-size:18px; color:#4183d7; margin:0; padding:0; margin-top:8px;}
 
 .form-group{margin-right:10px;}
-.form-control{border:none; border-radius:0; height:30px; font-size:14px; color:#384553; padding:0 3px 0 5px;}
-.btn-default{color:white; background:#4183d7; border:none; border-radius:0; padding:5px 19px 5px 19px;}
+.form-control{border:none; border-radius:0; height:30px; font-size:14px; color:#384553; padding:0 13px 0 13px;}
+.btn-default{color:white; background:#4183d7; border:none; border-radius:0; padding:3px 19px 3px 19px;}
+.btn-danger{color:white; background:#d74181; border:none; border-radius:0; padding:3px 19px 3px 19px;}
 .btn-default:hover{-o-transition: .5s;    -ms-transition: .5s;    -moz-transition: .5s;    -webkit-transition: .5s;    transition: .5s;}
 .btn-default{-o-transition: .5s;    -ms-transition: .5s;    -moz-transition: .5s;    -webkit-transition: .5s;    transition: .5s;}
+
 
 .texting{border-bottom:1px solid #d5dbdd; padding-bottom:20px;}
 .texting h2{font-size:24px; color:#4183d7;}
@@ -48,6 +53,7 @@ aside li a{font-size:13px; color:#384553;}
 aside .col-md-12 {margin-bottom:30px;}
 aside h5{font-size:13px; color:#d7414f;}
 aside p{line-height:25px;}
+aside .popular-routes h2{font-size:18px; color:#d7414f;}
 
 .custom-yacht-charter h3 {font-size:24px; color:#4183d7; padding:0; margin:0 0 10px 0;}
 .custom-yacht-charter h3 small  a{font-size:14px; background-color:#4183d7; color:#f2f2f2; padding:3px 10px 3px 10px; line-height:25px;}
@@ -81,6 +87,24 @@ aside p{line-height:25px;}
 .footer i{line-height:70px; font-size:36px; margin-right:10px;}
 
 footer a{font-size:12px; color:#4183d7; margin-right:10px;}
+
+.route {border-bottom:1px solid #d5dbdd;}
+.routepage h2{font-size:24px;}
+.routepage p{font-size:13px; line-height:28px;}
+
+.routeinfo {margin-top:20px;}
+.routeinfo img{margin-bottom:20px;}
+.routeinfo h3{font-size:18px; color:#4183d7; margin:0; padding:10px 0 10px 0;}
+.routeinfo h4{color:#d74181;}
+.routeinfo h5{font-size:24px; color:#4183d7;}
+.routeinfo .col-md-5{padding:0; margin:0; margin-top:10px;}
+.routeinfo ul {list-style:none; padding:0; margin:0;}
+.routeinfo li {margin-bottom:5px; font-size:14px;}
+.routeinfo li:last-child {margin-bottom:0px;}
+.routeinfo li a{color:#4183d7;}
+.routeinfo #linkcik li{margin-bottom:1px;}
+
+.itinerary-list li a{font-size:18px;}
 /* Navbar styling */
 .navbar {border:none; margin-bottom:0; font-size:13px;}
 .navbar-default {
