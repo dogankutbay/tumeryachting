@@ -1,0 +1,157 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
+body {    font-family: 'Raleway', sans-serif;    font-size: 14px;    font-weight:400; color:#384553; letter-spacing:-0.02em;}
+
+h1, h2, h3, h4, h5, h6{font-family:inherit;}
+a { color:#384553;   -o-transition: .5s;    -ms-transition: .5s;    -moz-transition: .5s;    -webkit-transition: .5s;    transition: .5s;}
+a:hover { text-decoration: none; color:#4183d7;  -o-transition: .5s;    -ms-transition: .5s;    -moz-transition: .5s;    -webkit-transition: .5s;    transition: .5s;}
+a:focus{ outline:0; outline: none;}
+p{font-size:13px; color:#384553; line-height:18px;}
+header{background-color:#6c7a89;}
+.darker{background-color:#ecf0f1;}
+.bos{padding:30px 0 30px 0;}
+.row{margin:0;}
+.campaigns{font-size:13px; background-color:white; padding:12px 20px 12px 20px}
+.campaigns h2{font-size:13px; color:#4183d7; padding:0; margin:0;}
+.campaigns p{padding:0; margin:0;}
+.ara h1{color:#384553; font-size:18px; }
+.ara h2{color:#4183d7; font-size:18px; margin:0 0 13px 0;}
+.yatpopular{margin-bottom:10px;}
+.popular-yachts p{font-size:12px; margin:0; padding:0;}
+.popular-yachts a{font-size:12px;}
+.yatpopular a{font-size:18px; }
+.a2 .col-md-6{padding:3px 3px 3px 3px;}
+.popular-routes ul{list-style:none; padding:0; margin:0;}
+.popular-routes li{margin:10px 0 10px 0; border-bottom:1px solid #ecf0f1; padding-bottom:10px;}
+.popular-routes a{font-size:12px;}
+.popular-routes li a{font-size:13px;}
+.search h3{font-size:18px; color:#4183d7; margin:0; padding:0; margin-top:8px;}
+
+.form-group{margin-right:10px;}
+.form-control{border:none; border-radius:0; height:30px; font-size:14px; color:#384553; padding:0 3px 0 5px;}
+.btn-default{color:white; background:#4183d7; border:none; border-radius:0; padding:5px 19px 5px 19px;}
+.btn-default:hover{-o-transition: .5s;    -ms-transition: .5s;    -moz-transition: .5s;    -webkit-transition: .5s;    transition: .5s;}
+.btn-default{-o-transition: .5s;    -ms-transition: .5s;    -moz-transition: .5s;    -webkit-transition: .5s;    transition: .5s;}
+
+.texting{border-bottom:1px solid #d5dbdd; padding-bottom:20px;}
+.texting h2{font-size:24px; color:#4183d7;}
+.yachts-in-turkey {margin-bottom:20px;}
+.yachts-in-turkey h3{color:#d7414f; font-size:24px;}
+.yachts-in-turkey img{margin-bottom:10px;}
+.yachts-in-turkey a{font-size:18px; color:#384553;}
+.yachts-in-turkey a:hover{color:red;}
+
+aside{margin-top:20px;}
+aside h4{color:#4183d7; font-size:18px;}
+aside ul{list-style:none; padding:0; margin:0;}
+aside li{margin-bottom:5px;}
+aside li a{font-size:13px; color:#384553;}
+aside .col-md-12 {margin-bottom:30px;}
+aside h5{font-size:13px; color:#d7414f;}
+aside p{line-height:25px;}
+
+.custom-yacht-charter h3 {font-size:24px; color:#4183d7; padding:0; margin:0 0 10px 0;}
+.custom-yacht-charter h3 small  a{font-size:14px; background-color:#4183d7; color:#f2f2f2; padding:3px 10px 3px 10px; line-height:25px;}
+.custom-yacht-charter h4{font-size:18px; color:#4183d7;}
+.custom-yacht-charter ul {list-style:none; padding:0; margin:0;}
+.custom-yacht-charter li {margin-bottom:3px; font-size:13px;}
+.custom-yacht-charter {border-bottom:1px solid #d5dbdd; border-top:1px solid #d5dbdd;}
+
+.event-planning h3{color:#da5460; font-size:24px;}
+.event-planning h4{color:#4183d7; font-size:23px; margin:0; margin-bottom:7px;}
+.event-planning img{margin-top:7px}
+.event-planning a{width:100%;}
+.event-planning .exp {width:75%; margin:0 auto; text-align:center;}
+.event-planning .exp p{font-style:italic; font-size:18px; line-height:23px; margin-bottom:20px;}
+.event-planning .exp a{font-size:13px; text-transform:uppercase; background-color:#ecf0f1; padding:10px 10px; }
+
+.bottom{margin-top:20px; margin-bottom:20px;}
+.bottom ul {list-style:none; padding:0; margin:0;}
+.bottom li {margin-bottom:10px; font-size:11px;}
+.bottom li:last-child {margin-bottom:0px;}
+
+
+.whytumeryachting i{ color:#384553;}
+.whytumeryachting { margin-top:20px; margin-bottom:20px;}
+.whytumeryachting h5{font-size:14px; color:#4183d7; margin:0; margin-bottom:5px;}
+.whytumeryachting .container{margin-bottom:20px;}
+
+.footer h6{font-size:24px; color:#d74141;}
+.footer p{ font-size:14px; color:#d74141;}
+.footer span{color:#384553;}
+.footer i{line-height:70px; font-size:36px; margin-right:10px;}
+
+footer a{font-size:12px; color:#4183d7; margin-right:10px;}
+/* Navbar styling */
+.navbar {border:none; margin-bottom:0; font-size:13px;}
+.navbar-default {
+  background-color: #6c7a89;
+  border-color: #384553;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #384553;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #384553;
+}
+.navbar-default .navbar-toggle {
+  border-color: #384553;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #384553;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #384553;
+  }
+}
+
+Find TWBSColor useful ? Share it !
+
+A work by Samuel Marchal
+
+Suggestions, comments, typo ?
+
+Licence MIT
+
+Buy me a coffee !
+
+All brand icons are trademarks of their respective owners.
+The use of these trademarks does not indicate endorsement of the trademark holder by TWBSColor, nor vice versa.
