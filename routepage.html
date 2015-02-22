@@ -31,6 +31,43 @@
 </head>
 
 <body>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel"><i class="fa fa-question-circle"></i>  Send an inquiry to us</h4>
+      </div>
+      <div class="modal-body">
+       <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">File input</label>
+    <input type="file" id="exampleInputFile">
+    <p class="help-block">Example block-level help text here.</p>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Check me out
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close This Page</button>
+      </div>
+    </div>
+  </div>
+</div>
 <header>
 	<div class="row clearfix">
 	<div class="container">
@@ -132,7 +169,7 @@ Discover Southern Turkey on a yacht charter from Bodrum and explore many breatht
 <p>
 As neighbors to Turkey, Greece is an ideal addition to your itinerary and offers plenty of islands for an exciting island hopping experience with family and friends. With our great selection of online and in-house yachts, there is bound to be a luxury gulet charter that is just right for your group.
 </p>
-<a href="#" class="btn btn-default">Click here to get a request</a>
+<a href="#" data-toggle="modal" data-target="#myModal" class="btn btn-default">Click here to get a request</a>
 <a href="#" class="btn btn-danger">See all yachts in bodrum</a>
 		</div>
 	</div>

@@ -105,6 +105,9 @@ footer a{font-size:12px; color:#4183d7; margin-right:10px;}
 .routeinfo #linkcik li{margin-bottom:1px;}
 
 .itinerary-list li a{font-size:18px;}
+
+
+.modal-content {background-color:#ecf0f1;}
 /* Navbar styling */
 .navbar {border:none; margin-bottom:0; font-size:13px;}
 .navbar-default {
